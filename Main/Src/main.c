@@ -10,7 +10,6 @@ void SysTick_Handler(void)
 {
 	if (maxTimer<1000000) {maxTimer ++;}
 	MAX_IRQ_inputTimer++;
-	
 }
 
 
