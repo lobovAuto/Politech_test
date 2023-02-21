@@ -1,5 +1,6 @@
 ./objects/main.o: ..\Main\Src\main.c ..\Main\Inc\main.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
   ..\Libs\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h ..\Libs\CMSIS\core_cm4.h \
   ..\Libs\CMSIS\core_cmInstr.h ..\Libs\CMSIS\core_cmFunc.h \
   ..\Libs\CMSIS\core_cm4_simd.h \

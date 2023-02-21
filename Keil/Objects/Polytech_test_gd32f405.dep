@@ -991,9 +991,10 @@ I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63B53419)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
-F (..\Main\Src\main.c)(0x63F39499)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Libs/GD32F4xx_standard_peripheral/Source -I ../Libs/GD32F4xx_standard_peripheral/Include -I ../../Politech_test -I ../Libs/CMSIS/GD/GD32F4xx/Source/ARM -I ../Libs/CMSIS/GD/GD32F4xx/Include -I ../Libs/CMSIS -I ../Main/Src -I ../Main/Inc -I ../Drivers/MAX6691/Src -I ../Drivers/MAX6691/Inc -I ../Drivers/USART/Src -I ../Drivers/USART/Inc -I ../MathFunction/LookupTable/Src -I ../MathFunction/LookupTable/Inc -Wall -Werror -Wextra -pedantic-IC:/Users/14498/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="536" -DGD32F405-o ./objects/main.o -MD)
-I (..\Main\Inc\main.h)(0x63F39499)
+F (..\Main\Src\main.c)(0x63F4EA66)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Libs/GD32F4xx_standard_peripheral/Source -I ../Libs/GD32F4xx_standard_peripheral/Include -I ../../Politech_test -I ../Libs/CMSIS/GD/GD32F4xx/Source/ARM -I ../Libs/CMSIS/GD/GD32F4xx/Include -I ../Libs/CMSIS -I ../Main/Src -I ../Main/Inc -I ../Drivers/MAX6691/Src -I ../Drivers/MAX6691/Inc -I ../Drivers/USART/Src -I ../Drivers/USART/Inc -I ../MathFunction/LookupTable/Src -I ../MathFunction/LookupTable/Inc -Wall -Werror -Wextra -pedantic-IC:/Users/14498/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="536" -DGD32F405-o ./objects/main.o -MD)
+I (..\Main\Inc\main.h)(0x63F4E960)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60354E24)
 I (..\Libs\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63EF9823)
 I (..\Libs\CMSIS\core_cm4.h)(0x63EFA231)
 I (..\Libs\CMSIS\core_cmInstr.h)(0x63EF9AEA)
@@ -1026,13 +1027,14 @@ I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63B53419)
-I (..\Drivers\MAX6691\Inc\max6691.h)(0x63F3900A)
-I (..\Drivers\USART\Inc\USART.h)(0x63F391AD)
-I (..\MathFunction\LookupTable\Inc\LookupTable.h)(0x63F12F92)
-F (..\Drivers\MAX6691\Src\max6691.c)(0x63F39499)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Libs/GD32F4xx_standard_peripheral/Source -I ../Libs/GD32F4xx_standard_peripheral/Include -I ../../Politech_test -I ../Libs/CMSIS/GD/GD32F4xx/Source/ARM -I ../Libs/CMSIS/GD/GD32F4xx/Include -I ../Libs/CMSIS -I ../Main/Src -I ../Main/Inc -I ../Drivers/MAX6691/Src -I ../Drivers/MAX6691/Inc -I ../Drivers/USART/Src -I ../Drivers/USART/Inc -I ../MathFunction/LookupTable/Src -I ../MathFunction/LookupTable/Inc -Wall -Werror -Wextra -pedantic-IC:/Users/14498/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="536" -DGD32F405-o ./objects/max6691.o -MD)
-I (..\Drivers\MAX6691\Inc\max6691.h)(0x63F3900A)
-I (..\Main\Inc\main.h)(0x63F39499)
+I (..\Drivers\MAX6691\Inc\max6691.h)(0x63F48841)
+I (..\Drivers\USART\Inc\USART.h)(0x63F484AB)
+I (..\MathFunction\LookupTable\Inc\LookupTable.h)(0x63F484DE)
+F (..\Drivers\MAX6691\Src\max6691.c)(0x63F48618)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Libs/GD32F4xx_standard_peripheral/Source -I ../Libs/GD32F4xx_standard_peripheral/Include -I ../../Politech_test -I ../Libs/CMSIS/GD/GD32F4xx/Source/ARM -I ../Libs/CMSIS/GD/GD32F4xx/Include -I ../Libs/CMSIS -I ../Main/Src -I ../Main/Inc -I ../Drivers/MAX6691/Src -I ../Drivers/MAX6691/Inc -I ../Drivers/USART/Src -I ../Drivers/USART/Inc -I ../MathFunction/LookupTable/Src -I ../MathFunction/LookupTable/Inc -Wall -Werror -Wextra -pedantic-IC:/Users/14498/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="536" -DGD32F405-o ./objects/max6691.o -MD)
+I (..\Drivers\MAX6691\Inc\max6691.h)(0x63F48841)
+I (..\Main\Inc\main.h)(0x63F4E960)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60354E24)
 I (..\Libs\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63EF9823)
 I (..\Libs\CMSIS\core_cm4.h)(0x63EFA231)
 I (..\Libs\CMSIS\core_cmInstr.h)(0x63EF9AEA)
@@ -1065,12 +1067,13 @@ I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63B53419)
-I (..\Drivers\USART\Inc\USART.h)(0x63F391AD)
-I (..\MathFunction\LookupTable\Inc\LookupTable.h)(0x63F12F92)
-F (..\Drivers\USART\Src\USART.c)(0x63F391AC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Libs/GD32F4xx_standard_peripheral/Source -I ../Libs/GD32F4xx_standard_peripheral/Include -I ../../Politech_test -I ../Libs/CMSIS/GD/GD32F4xx/Source/ARM -I ../Libs/CMSIS/GD/GD32F4xx/Include -I ../Libs/CMSIS -I ../Main/Src -I ../Main/Inc -I ../Drivers/MAX6691/Src -I ../Drivers/MAX6691/Inc -I ../Drivers/USART/Src -I ../Drivers/USART/Inc -I ../MathFunction/LookupTable/Src -I ../MathFunction/LookupTable/Inc -Wall -Werror -Wextra -pedantic-IC:/Users/14498/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="536" -DGD32F405-o ./objects/usart.o -MD)
-I (..\Drivers\USART\Inc\USART.h)(0x63F391AD)
-I (..\Main\Inc\main.h)(0x63F39499)
+I (..\Drivers\USART\Inc\USART.h)(0x63F484AB)
+I (..\MathFunction\LookupTable\Inc\LookupTable.h)(0x63F484DE)
+F (..\Drivers\USART\Src\USART.c)(0x63F484A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Libs/GD32F4xx_standard_peripheral/Source -I ../Libs/GD32F4xx_standard_peripheral/Include -I ../../Politech_test -I ../Libs/CMSIS/GD/GD32F4xx/Source/ARM -I ../Libs/CMSIS/GD/GD32F4xx/Include -I ../Libs/CMSIS -I ../Main/Src -I ../Main/Inc -I ../Drivers/MAX6691/Src -I ../Drivers/MAX6691/Inc -I ../Drivers/USART/Src -I ../Drivers/USART/Inc -I ../MathFunction/LookupTable/Src -I ../MathFunction/LookupTable/Inc -Wall -Werror -Wextra -pedantic-IC:/Users/14498/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="536" -DGD32F405-o ./objects/usart.o -MD)
+I (..\Drivers\USART\Inc\USART.h)(0x63F484AB)
+I (..\Main\Inc\main.h)(0x63F4E960)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60354E24)
 I (..\Libs\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x63EF9823)
 I (..\Libs\CMSIS\core_cm4.h)(0x63EFA231)
 I (..\Libs\CMSIS\core_cmInstr.h)(0x63EF9AEA)
@@ -1103,8 +1106,8 @@ I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x63B53419)
 I (..\Libs\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x63B53419)
-I (..\Drivers\MAX6691\Inc\max6691.h)(0x63F3900A)
-I (..\MathFunction\LookupTable\Inc\LookupTable.h)(0x63F12F92)
-F (..\MathFunction\LookupTable\Src\LookupTable.c)(0x63F1D5CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Libs/GD32F4xx_standard_peripheral/Source -I ../Libs/GD32F4xx_standard_peripheral/Include -I ../../Politech_test -I ../Libs/CMSIS/GD/GD32F4xx/Source/ARM -I ../Libs/CMSIS/GD/GD32F4xx/Include -I ../Libs/CMSIS -I ../Main/Src -I ../Main/Inc -I ../Drivers/MAX6691/Src -I ../Drivers/MAX6691/Inc -I ../Drivers/USART/Src -I ../Drivers/USART/Inc -I ../MathFunction/LookupTable/Src -I ../MathFunction/LookupTable/Inc -Wall -Werror -Wextra -pedantic-IC:/Users/14498/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="536" -DGD32F405-o ./objects/lookuptable.o -MD)
-I (..\MathFunction\LookupTable\Inc\LookupTable.h)(0x63F12F92)
+I (..\Drivers\MAX6691\Inc\max6691.h)(0x63F48841)
+I (..\MathFunction\LookupTable\Inc\LookupTable.h)(0x63F484DE)
+F (..\MathFunction\LookupTable\Src\LookupTable.c)(0x63F484D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Libs/GD32F4xx_standard_peripheral/Source -I ../Libs/GD32F4xx_standard_peripheral/Include -I ../../Politech_test -I ../Libs/CMSIS/GD/GD32F4xx/Source/ARM -I ../Libs/CMSIS/GD/GD32F4xx/Include -I ../Libs/CMSIS -I ../Main/Src -I ../Main/Inc -I ../Drivers/MAX6691/Src -I ../Drivers/MAX6691/Inc -I ../Drivers/USART/Src -I ../Drivers/USART/Inc -I ../MathFunction/LookupTable/Src -I ../MathFunction/LookupTable/Inc -Wall -Werror -Wextra -pedantic-IC:/Users/14498/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="536" -DGD32F405-o ./objects/lookuptable.o -MD)
+I (..\MathFunction\LookupTable\Inc\LookupTable.h)(0x63F484DE)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)

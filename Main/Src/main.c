@@ -14,10 +14,25 @@ void SysTick_Handler(void)
 	MAX_IRQ_inputTimer++;
 }
 
+float valueToStrin (float temp, uint8_t valid, uint8_t number)
+{
+	char temporary[50];
+	if (valid == 1)
+	{
+		sprintf(temporary, "Temp on %u thermistor - %fC\r\n", number, temp);
+		return *temporary;
+	}
+	else
+	{
+		sprintf(temporary, "Value on %u thermistor is invalid\r\n", number);
+		return *temporary;
+	}
+}
+
 int main(void)
 {
 	SysTick_Config(SystemCoreClock / 200); //1 µs
-	char USARTbuffer[100];
+	char USARTbuffer[200];
 	MAX6691_StateMachine SM = 0;
 	uint32_t delta = 0;
 	maxHLstruct timeStruct;
@@ -31,6 +46,10 @@ int main(void)
 		max_6691(&SM, delta, &timeStruct, &tempStruct, &timeReady,
 			 &maxTimer);
 		smMaxToInterrupt = SM;
+		sprintf(USARTbuffer,"%f%f%f%f",valueToStrin(tempStruct.t1, tempStruct.t1_valid, 1),
+							valueToStrin(tempStruct.t2, tempStruct.t2_valid, 2),
+							valueToStrin(tempStruct.t3, tempStruct.t3_valid, 3),
+							valueToStrin(tempStruct.t4, tempStruct.t4_valid, 4));
 		USART_printTemp(USARTbuffer, &tempStruct.tempProcFinished);
 	}
 }

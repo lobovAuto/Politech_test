@@ -1,6 +1,7 @@
 ./objects/max6691.o: ..\Drivers\MAX6691\Src\max6691.c \
   ..\Drivers\MAX6691\Inc\max6691.h ..\Main\Inc\main.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
   ..\Libs\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h ..\Libs\CMSIS\core_cm4.h \
   ..\Libs\CMSIS\core_cmInstr.h ..\Libs\CMSIS\core_cmFunc.h \
   ..\Libs\CMSIS\core_cm4_simd.h \

@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdint.h>
+#include <stdio.h>
 #include "gd32f4xx.h"
 #include "max6691.h"
 #include "USART.h"
